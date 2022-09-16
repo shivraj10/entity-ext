@@ -12,9 +12,9 @@ import cv2
 import numpy as np
 app = Flask(__name__)
 app.secret_key = "super secret key"
-UPLOAD_FOLDER = '/Users/shivraj/Downloads/form-16/upload'
+UPLOAD_FOLDER = '/Users/shivraj/Downloads/entity-ext/upload'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-DOWNLOAD_FOLDER = '/Users/shivraj/Downloads/form-16/json'
+DOWNLOAD_FOLDER = '/Users/shivraj/Downloads/entity-ext/json'
 app.config['DOWNLOAD_FOLDER'] = DOWNLOAD_FOLDER
 EXTENSIONS = {'png', 'jpg','jpeg','tiff'}
 def allowed_file(filename):
